@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Evgeni",
+    "type": "TIGER",
+    "age": 3,
+    "gender": "M",
+    "cageNumber": 1,
+    "foodTypes": [
+      "MEAT"
+    ]
+  },
+  {
+    "name": "Gancho",
+    "type": "HAWK",
+    "age": 5,
+    "gender": "M",
+    "cageNumber": 2,
+    "foodTypes": [
+      "MEAT",
+      "PLANT"
+    ]
+  },
+  {
+    "name": "Batman",
+    "type": "PIG",
+    "age": 2,
+    "gender": "M",
+    "cageNumber": 3,
+    "foodTypes": [
+      "MEAT",
+      "PLANT"
+    ]
+  },
+  {
+    "name": "Burzata",
+    "type": "ANTELOPE",
+    "age": 2,
+    "gender": "F",
+    "cageNumber": 4,
+    "foodTypes": [
+      "PLANT"
+    ]
+  }
+]
