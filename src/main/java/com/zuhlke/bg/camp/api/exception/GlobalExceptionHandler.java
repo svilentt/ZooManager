@@ -11,7 +11,7 @@ public class GlobalExceptionHandler {
     private static final Logger LOGGER = LogManager.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler(AnimalNotFoundException.class)
-    public ResponseEntity<Void> handlesThrowable(AnimalNotFoundException e) {
+    public ResponseEntity<Void> handlesAnimalNotFoundException(AnimalNotFoundException e) {
         LOGGER.error("Requested animal was not found.", e);
         return ResponseEntity.notFound().build();
     }
