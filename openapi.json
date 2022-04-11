@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:8080",
+      "url": "http://localhost:8092",
       "description": "Generated server url"
     }
   ],
@@ -63,7 +63,7 @@
               }
             }
           },
-          "404": {
+          "401": {
             "description": "Animal not found"
           }
         }

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class DataLoadService {
@@ -21,11 +22,11 @@ public class DataLoadService {
         foods = loadFoods();
     }
 
-    public ArrayList<AnimalDto> getAnimals() {
+    public List<AnimalDto> getAnimals() {
         return animals;
     }
 
-    public ArrayList<FoodDto> getFoods() {
+    public List<FoodDto> getFoods() {
         return foods;
     }
 

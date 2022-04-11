@@ -23,7 +23,7 @@ public class ZooManagerController {
 
     private final ZooManagerService zooManagerService;
 
-    public ZooManagerController(ZooManagerService zooManagerService) {
+    ZooManagerController(ZooManagerService zooManagerService) {
         this.zooManagerService = zooManagerService;
     }
 

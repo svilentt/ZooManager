@@ -10,6 +10,16 @@
     ]
   },
   {
+    "name": "Grigor",
+    "type": "TIGER",
+    "age": 4,
+    "gender": "M",
+    "cageNumber": 1,
+    "foodTypes": [
+      "MEAT"
+    ]
+  },
+  {
     "name": "Gancho",
     "type": "HAWK",
     "age": 5,
@@ -34,11 +44,31 @@
   {
     "name": "Burzata",
     "type": "ANTELOPE",
-    "age": 2,
+    "age": 4,
     "gender": "F",
     "cageNumber": 4,
     "foodTypes": [
       "PLANT"
+    ]
+  },
+  {
+    "name": "Burziq",
+    "type": "ANTELOPE",
+    "age": 4,
+    "gender": "M",
+    "cageNumber": 4,
+    "foodTypes": [
+      "PLANT"
+    ]
+  },
+  {
+    "name": "Doncho",
+    "type": "CROCODILE",
+    "age": 2,
+    "gender": "M",
+    "cageNumber": 5,
+    "foodTypes": [
+      "MEAT"
     ]
   }
 ]

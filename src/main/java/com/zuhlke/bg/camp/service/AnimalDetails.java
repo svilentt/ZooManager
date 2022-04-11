@@ -15,7 +15,7 @@ public class AnimalDetails {
     private final int cageNumber;
     private final List<FoodDto> acceptableFoods;
 
-    AnimalDetails(AnimalDto animalDto, List<FoodDto> acceptableFoods) {
+    public AnimalDetails(AnimalDto animalDto, List<FoodDto> acceptableFoods) {
         this.name = animalDto.getName();
         this.animalType = animalDto.getType();
         this.age = animalDto.getAge();

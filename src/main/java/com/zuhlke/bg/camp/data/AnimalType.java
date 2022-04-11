@@ -17,5 +17,5 @@ public enum AnimalType {
     MONKEY,
     ELEPHANT,
     DOG,
-    BEAR;
+    BEAR
 }
