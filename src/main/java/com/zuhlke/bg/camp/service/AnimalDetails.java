@@ -13,15 +13,15 @@ public class AnimalDetails {
     private final int age;
     private final Gender gender;
     private final int cageNumber;
-    private final List<FoodDto> acceptableFoods;
+    private final List<FoodDto> acceptableFood;
 
-    public AnimalDetails(AnimalDto animalDto, List<FoodDto> acceptableFoods) {
+    public AnimalDetails(AnimalDto animalDto, List<FoodDto> acceptableFood) {
         this.name = animalDto.getName();
         this.animalType = animalDto.getType();
         this.age = animalDto.getAge();
         this.gender = animalDto.getGender();
         this.cageNumber = animalDto.getCageNumber();
-        this.acceptableFoods = acceptableFoods;
+        this.acceptableFood = acceptableFood;
     }
 
     public String getName() {
@@ -44,7 +44,7 @@ public class AnimalDetails {
         return cageNumber;
     }
 
-    public List<FoodDto> getAcceptableFoods() {
-        return acceptableFoods;
+    public List<FoodDto> getAcceptableFood() {
+        return acceptableFood;
     }
 }
