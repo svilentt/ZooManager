@@ -70,5 +70,13 @@
     "foodTypes": [
       "MEAT"
     ]
+  },
+  {
+    "name": "Rosa",
+    "type": "HEN",
+    "age": 2,
+    "gender": "F",
+    "cageNumber": 1,
+    "foodTypes": []
   }
 ]
