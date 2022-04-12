@@ -2,16 +2,19 @@
   {
     "name": "Chicken",
     "type": "MEAT",
-    "pricePerKg": 5.45
+    "price": 5.45,
+    "priceUnit": "KG"
   },
   {
     "name": "Seeds",
     "type": "PLANT",
-    "pricePerKg": 2.36
+    "price": 2.36,
+    "priceUnit": "KG"
   },
   {
     "name": "Corn",
     "type": "PLANT",
-    "pricePerKg": 1.52
+    "price": 1.52,
+    "priceUnit": "KG"
   }
 ]

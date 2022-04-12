@@ -68,11 +68,11 @@ class ZooManagerControllerContractTest {
     }
 
     private FoodDto suitableFood() {
-        return new FoodDto("Pork", FoodType.MEAT, 5.64);
+        return new FoodDto("Pork", FoodType.MEAT, 5.64, PriceUnit.KG);
     }
 
     private FoodDto notSuitableFood() {
-        return new FoodDto("Corn", FoodType.PLANT, 2.34);
+        return new FoodDto("Corn", FoodType.PLANT, 2.34, PriceUnit.KG);
     }
 
 }
