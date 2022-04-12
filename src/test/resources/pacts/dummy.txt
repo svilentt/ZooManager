@@ -1,0 +1,1 @@
+Ignore this file it is used to upload the pact folder structure to git.
